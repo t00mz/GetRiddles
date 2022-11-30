@@ -1,4 +1,5 @@
 ﻿<h4>Search For A Riddle!</h4>
+<body id="searchbody">
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -8,12 +9,13 @@
                 <input name="SearchPhrase" class="form-control" />        
             </div>
             <div class="form-group"><br />
-                <input type="submit" value="Search" class="btn btn-primary" />
+                <input type="submit" value="Search" id="btnsearch" @*class="btn btn-primary"*@ />
             </div>
         </form>
     </div>
 </div>
 <div>
     <br />
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index" id="urllinksearchform">Back to List</a>
 </div>
+</body>

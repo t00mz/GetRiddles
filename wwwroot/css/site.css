@@ -16,3 +16,73 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+#homebody {
+    background-image: url(home.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+    
+#searchbody {
+    background-image: url(search.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#createbody {
+    background-image: url(create.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#indexbody {
+    background: linear-gradient(to right, skyblue, lightgreen);
+}
+
+#detailsbody {
+    background: linear-gradient(to right, lightgreen, lightyellow);
+}
+
+#editbody {
+    background: linear-gradient(to right, pink, red);
+}
+
+#deletebody {
+    background: linear-gradient(to right, pink, red);
+}
+
+#header { /*not working*/
+    background-color: black;
+    color: white;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+}
+
+#urllinksearchform {
+    color: black;
+    font-size: 20px;
+}
+
+#urllinkcreate{
+    color: black;
+    font-size: 20px;
+}
+
+#btnsearch {
+    color: white;
+    background-color: black;
+}
+
+#btncreate {
+    color: white;
+    background-color: black;
+}
