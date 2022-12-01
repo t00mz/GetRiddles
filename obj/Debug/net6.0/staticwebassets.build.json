@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1RufM75NF6Ak9AzIJqKcmo/tUtS/Prsp73JdhpeyZTs=",
+  "Hash": "MI71Kk2HClYW+2LPwtxMEoqUK5IcleIIPVlfl4S1vkc=",
   "Source": "GetRiddles",
   "BasePath": "_content/GetRiddles",
   "Mode": "Default",
@@ -1086,6 +1086,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\create.png"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\TC\\repos\\GetRiddles\\wwwroot\\css\\create2.png",
+      "SourceId": "GetRiddles",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\TC\\repos\\GetRiddles\\wwwroot\\",
+      "BasePath": "_content/GetRiddles",
+      "RelativePath": "css/create2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\create2.png"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\TC\\repos\\GetRiddles\\wwwroot\\css\\home.png",
+      "SourceId": "GetRiddles",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\TC\\repos\\GetRiddles\\wwwroot\\",
+      "BasePath": "_content/GetRiddles",
+      "RelativePath": "css/home.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\home.png"
     },
     {
       "Identity": "C:\\Users\\user\\Desktop\\TC\\repos\\GetRiddles\\wwwroot\\css\\search.png",
