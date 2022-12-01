@@ -2,6 +2,10 @@
 @inject SignInManager<IdentityUser> SignInManager
 @inject UserManager<IdentityUser> UserManager
 
+
+@*   if statements tells program what to display if user is logged in;
+   else statement tells program what to display if user is NOT logged in.*@
+
 <ul class="navbar-nav">
 @if (SignInManager.IsSignedIn(User))
 {

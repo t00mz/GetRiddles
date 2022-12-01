@@ -57,6 +57,17 @@ body {
     background: linear-gradient(to right, pink, red);
 }
 
+#registerconfirmation {
+    background: linear-gradient(to right, yellow, pink)
+
+}
+
+#confirm-link2{
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+}
+
 #footer {
     background-color: black;
     color: white;
@@ -86,3 +97,4 @@ body {
     color: white;
     background-color: black;
 }
+
