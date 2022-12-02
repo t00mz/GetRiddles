@@ -1,8 +1,21 @@
 ﻿@page
 @model ConfirmEmailModel
+
+<body id="confirmemail">
 @{
     ViewData["Title"] = "Confirm email";
 }
 
-<h1>@ViewData["Title"]</h1>
-<partial name="_StatusMessage" model="Model.StatusMessage" />
+<h3>
+    <br /><br /><br />
+    Thank you for creating and confirming your account!<br />
+    Now you can add your own riddles to our collection!<br />
+    Don't forget you can also edit and delete them!
+</h3>
+<br /><br />
+<h2>
+    Now go log in and have fun!
+</h2>
+@*<partial name="_StatusMessage" model="Model.StatusMessage" />*@
+
+</body>

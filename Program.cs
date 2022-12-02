@@ -30,7 +30,7 @@ builder.Services.Configure<IdentityOptions>(options =>
 builder.Services.Configure<IdentityOptions>(options =>
 {
     options.Password.RequireDigit = false;
-    options.Password.RequireLowercase = true;
+    options.Password.RequireLowercase = false;
     options.Password.RequireNonAlphanumeric = false;
     options.Password.RequireUppercase = false;
     options.Password.RequiredLength = 4;

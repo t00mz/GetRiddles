@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MI71Kk2HClYW+2LPwtxMEoqUK5IcleIIPVlfl4S1vkc=",
+  "Hash": "T0VorwGjw/5oS9qnKWozIMrwOPsNcKKTZuDO8L6AA8M=",
   "Source": "GetRiddles",
   "BasePath": "_content/GetRiddles",
   "Mode": "Default",
@@ -1154,6 +1154,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\TC\\repos\\GetRiddles\\wwwroot\\css\\sorry.png",
+      "SourceId": "GetRiddles",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\TC\\repos\\GetRiddles\\wwwroot\\",
+      "BasePath": "_content/GetRiddles",
+      "RelativePath": "css/sorry.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\sorry.png"
     },
     {
       "Identity": "C:\\Users\\user\\Desktop\\TC\\repos\\GetRiddles\\wwwroot\\favicon.ico",

@@ -57,12 +57,31 @@ body {
     background: linear-gradient(to right, pink, red);
 }
 
+#loginpage {
+    background: linear-gradient(to right, yellow, pink)
+}
+
+#register {
+    background: linear-gradient(to right, yellow, pink)
+}
+
 #registerconfirmation {
     background: linear-gradient(to right, yellow, pink)
 
 }
 
-#confirm-link2{
+#confirmemail {
+    background: linear-gradient(to right, yellow, pink)
+}
+
+#managelayout {
+    background-image: url(sorry.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#confirm-link2 {
     text-align: center;
     font-size: 30px;
     color: blue;
@@ -94,6 +113,16 @@ body {
 }
 
 #btncreate {
+    color: white;
+    background-color: black;
+}
+
+#btnregister {
+    color: white;
+    background-color: black;
+}
+
+#btnlogin {
     color: white;
     background-color: black;
 }

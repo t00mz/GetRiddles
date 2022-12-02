@@ -4,6 +4,8 @@
     ViewData["Title"] = "Register";
 }
 
+<body id="register">
+
 <h1>@ViewData["Title"]</h1>
 
 <div class="row">
@@ -27,10 +29,14 @@
                 <label asp-for="Input.ConfirmPassword"></label>
                 <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
             </div>
-            <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Register</button>
+            <button id="btnregister" @*id="registerSubmit"*@ type="submit" class="w-100 btn btn-lg btn-primary">Register</button>
         </form>
+@*        <br /><br />
+            <p>
+                note: password must be at least 6 characters long.           
+            </p>*@
     </div>
-    <div class="col-md-6 col-md-offset-2">
+   @* <div class="col-md-6 col-md-offset-2">
         <section>
             <h3>Use another service to register.</h3>
             <hr />
@@ -59,8 +65,10 @@
                 }
             }
         </section>
-    </div>
+    </div>*@
 </div>
+
+</body>
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
